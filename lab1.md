@@ -1,10 +1,10 @@
 
 # Lab Report 1
 
-**To download VsCode go their website, and download the version, accoridng to your device**
+**To download VsCode go their website, and download the version, according to your device**
 
 
-![Image](VsCode Download.png)
+![Image](Download.png)
 
 **After you download VsCode, this should be the interface you see when it's open**
 
