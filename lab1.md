@@ -19,13 +19,13 @@
 
 **Run the following commands.**
 
-`cd~`
-`cd`
-`ls -lat`
-`ls -a`
-`ls<directory>` **where** `<directory>` **is** `/home/linux/ieng6/cs15sp23/cs15sp23abc`, **where abc is a group memebers' username**
-`cp /home/linux/ieng6/cs15sp23/public/hello.txt~/`
-`cat /home/linux/ieng6/cs15sp23/public/hello.txt`
+*`cd~`
+*`cd`
+*`ls -lat`
+*`ls -a`
+*`ls<directory>` **where** `<directory>` **is** `/home/linux/ieng6/cs15sp23/cs15sp23abc`, **where abc is a group memebers' username**
+*`cp /home/linux/ieng6/cs15sp23/public/hello.txt~/`
+*`cat /home/linux/ieng6/cs15sp23/public/hello.txt`
 
 
 **After the commands are written you should end up with the following:**
