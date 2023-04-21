@@ -19,11 +19,11 @@
 
 **Run the following commands.**
 
-* `cd~`
-* `cd`
+* `cd ~` **changes the current directory to the home directory**
+* `cd` **allows you to change between directories**
 * `ls -lat`
-* `ls -a`
-* `ls<directory>` **where** `<directory>` **is** `/home/linux/ieng6/cs15sp23/cs15sp23abc`, **where abc is a group memebers' username**
+* `ls -a` **list all files and directories, even the hidden ones**
+* `ls <directory>` **where** `<directory>` **is** `/home/linux/ieng6/cs15sp23/cs15sp23abc`, **where abc is a group memebers' username**
 * `cp /home/linux/ieng6/cs15sp23/public/hello.txt~/`
 * `cat /home/linux/ieng6/cs15sp23/public/hello.txt`
 
