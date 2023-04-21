@@ -31,3 +31,14 @@
 **After the commands are written you should end up with the following:**
 
 ![Image](NewCommands.png)
+
+**OutPuts**
+
+* `cd ~` ** *The output was nonthing because were already in our home directory* **
+* `cd` ** *Did not switch because a directory was not chosen* **
+* `ls -lat` ** *Printed all files and directories according to their dates* **
+* `ls -a` ** *Printed out all files and directories even those that were hidden* **
+* `ls <directory>` **where** `<directory>` **is** `/home/linux/ieng6/cs15sp23/cs15sp23abc` ** *Permission was denied* **
+* `cp /home/linux/ieng6/cs15sp23/public/hello.txt~/` ** *Copied a file* **
+* `cat /home/linux/ieng6/cs15sp23/public/hello.txt` ** *Printed what was in the hello.txt file* **
+
