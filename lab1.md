@@ -21,13 +21,13 @@
 
 * `cd ~` **changes the current directory to the home directory**
 * `cd` **allows you to change between directories**
-* `ls -lat`
+* `ls -lat` **Puts all contents in a directory in a list format, in a date from most recents to the oldest content**
 * `ls -a` **list all files and directories, even the hidden ones**
 * `ls <directory>` **where** `<directory>` **is** `/home/linux/ieng6/cs15sp23/cs15sp23abc`, **where abc is a group memebers' username**
-* `cp /home/linux/ieng6/cs15sp23/public/hello.txt~/`
-* `cat /home/linux/ieng6/cs15sp23/public/hello.txt`
+* `cp /home/linux/ieng6/cs15sp23/public/hello.txt~/` **copies a file**
+* `cat /home/linux/ieng6/cs15sp23/public/hello.txt` **prints out what's in the hello.txt file**
 
 
 **After the commands are written you should end up with the following:**
 
-![Image](Commands.png)
+![Image](NewCommands.png)
