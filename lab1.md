@@ -1,7 +1,7 @@
 
 # Lab Report 1
 
-**First, You will need to download Visual Studio Code.To download Visual Studio Code, you can use this link to take you there directly [Linkhttps://code.visualstudio.com/]. Click the arrow next to the download button. Be sure to download the correct version according to your device**
+**First, You will need to download Visual Studio Code.To download Visual Studio Code, you can use this link to take you there directly [Link](https://code.visualstudio.com/). Click the arrow next to the download button. Be sure to download the correct version according to your device**
 
 ![Image](Download.png)
 
@@ -19,13 +19,13 @@
 
 **Run the following commands.**
 
-*`cd~`
-*`cd`
-*`ls -lat`
-*`ls -a`
-*`ls<directory>` **where** `<directory>` **is** `/home/linux/ieng6/cs15sp23/cs15sp23abc`, **where abc is a group memebers' username**
-*`cp /home/linux/ieng6/cs15sp23/public/hello.txt~/`
-*`cat /home/linux/ieng6/cs15sp23/public/hello.txt`
+* `cd~`
+* `cd`
+* `ls -lat`
+* `ls -a`
+* `ls<directory>` **where** `<directory>` **is** `/home/linux/ieng6/cs15sp23/cs15sp23abc`, **where abc is a group memebers' username**
+* `cp /home/linux/ieng6/cs15sp23/public/hello.txt~/`
+* `cat /home/linux/ieng6/cs15sp23/public/hello.txt`
 
 
 **After the commands are written you should end up with the following:**
