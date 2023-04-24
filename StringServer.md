@@ -7,19 +7,22 @@
 
 **Original Code**
 
-  ```# static int[] reversed(int[] arr) {
+  ```
+  # static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = newArray[arr.length - i - 1];
     }
     return arr;
-  }```
+  }
+  ```
   
   *Creates a failure inducing output*
   
   **JUnit Testing**
   
-  `@Test
+  ```
+  # @Test
   Public void testReversed(){
   
   int array = {1,2,4,5};
@@ -27,17 +30,20 @@
   
   assertArrayEquals(array,result);
   
-  }`
+  }
+  ```
   
 **Corrected Code**
 
-  ```# static int[] reversed(int[] arr) {
+  ```
+  # static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       newArray[i] = arr[arr.length - i - 1];
     }
     return newArray;
-  }```
+  }
+  ```
   
   
   *Does not create a falure inducing output*
@@ -45,7 +51,8 @@
 **JUnit Testing**
   
   
-  ```# @Test
+  ```
+  # @Test
   public void testReversed(){
   
   int[] array = {1,2,3,4,5};
@@ -53,7 +60,8 @@
   
   assertArrayEquals(array,result);
   
-  }```
+  }
+  ```
 
 
 #Part 3
