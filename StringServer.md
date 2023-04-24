@@ -35,6 +35,8 @@
   
 **Corrected Code**
 
+*The error of the code was that it wasnt properly reversing the array. In the fourth line the wrong code uses `arr[i] = newArray[arr.length-i-1]`, which is incorrect because arr is copying from the wrong array. It instead should the other way around, that way new array is copying from the inputed array*
+
   ```
   # static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -66,4 +68,4 @@
 
 #Part 3
 
-*What I've learned durin lab 2 and 3, was know what a relative path, working directory, and absolute path. I learned how to determine what absolute path will be the outcome of an working directory and relative path.*
+*What I've learned durin lab 2 and 3, was know what a relative path, working directory, and absolute path. I learned how to determine what the absolute path will be the outcome of an working directory and relative path.*
