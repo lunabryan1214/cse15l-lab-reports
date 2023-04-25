@@ -2,7 +2,7 @@
 
 
 ## Part 1
-
+***
 ## Part 2
 
 **Original Code**
@@ -17,10 +17,10 @@
   }
   ```
   
-  *Creates a failure inducing output*
   
   **JUnit Testing**
   
+  *Creates a failure inducing output*
   ```
   # @Test
   Public void testReversed(){
@@ -48,10 +48,11 @@
   ```
   
   
+  
+  
+  **JUnit Testing**
+  
   *Does not create a falure inducing output*
-  
-**JUnit Testing**
-  
   
   ```
   # @Test
@@ -64,7 +65,7 @@
   
   }
   ```
-
+***
 
 #Part 3
 
