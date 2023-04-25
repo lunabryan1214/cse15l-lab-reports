@@ -2,7 +2,7 @@
 
 
 ## Part 1
-***
+
 ## Part 2
 
 **Original Code**
@@ -32,7 +32,7 @@
   
   }
   ```
-  
+*** 
 **Corrected Code**
 
 *The error of the code was that it wasnt properly reversing the array. In the fourth line the wrong code uses `arr[i] = newArray[arr.length-i-1]`, which is incorrect because arr is copying from the wrong array. It instead should the other way around, that way new array is copying from the inputed array*
@@ -65,8 +65,8 @@
   
   }
   ```
-***
 
-#Part 3
+
+# Part 3
 
 *What I've learned durin lab 2 and 3, was know what a relative path, working directory, and absolute path. I learned how to determine what the absolute path will be the outcome of an working directory and relative path.*
