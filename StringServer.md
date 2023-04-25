@@ -1,7 +1,25 @@
-# Lab 2
+# Lab Report 2
 
 
 ## Part 1
+
+```
+# public class String Server{
+
+  public static void start(int port, URLHandler handler){
+
+   HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
+   server.createContext("/", new ServerHttpHandler(handler));
+   
+   if(path.equals("/add-message?s=Hello" && /add-message?s=How are you){
+   
+    system.out.println(path);
+
+  }
+}
+
+
+```
 
 ## Part 2
 
