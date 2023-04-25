@@ -13,7 +13,7 @@
    
    if(path.equals("/add-message?s=Hello" && /add-message?s=How are you){
    
-    system.out.println(path);
+    system.out.println("Hello\n How are you");
 
   }
 }
