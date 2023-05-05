@@ -70,19 +70,20 @@
   
   **JUnit Testing**
   
-  *Does not create a falure inducing output*
+  *Does not create a failure inducing output using the orignal code*
   
   ```
   # @Test
   public void testReversed(){
   
-  int[] array = {1,2,3,4,5};
+  int[] array = {100};
   int[] result = array.reversed();
   
   assertArrayEquals(array,result);
   
   }
   ```
+  *This won't give a faulure inducing code becuase there's only element in the array, so nonthing much needs to be done, since reversing a single element is the same thing as the orginal. This would go through because there isnt any check if the array has mulptile elements.*
 
 
 # Part 3
