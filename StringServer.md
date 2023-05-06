@@ -76,7 +76,8 @@ class StringServer {
 ![Image](secondAddition.png)
 
 *The results after adding Strings*
-![Image](Screenshot 2023-05-05 at 8.00.50 PM.png)
+![Image](Results.png)
+
 
 **Questions**
 
