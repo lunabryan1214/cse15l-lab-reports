@@ -76,6 +76,7 @@ class StringServer {
 ![Image](secondAddition.png)
 
 *The results after adding Strings*
+
 ![Image](Results.png)
 
 
