@@ -82,15 +82,15 @@ class StringServer {
 
 **Questions**
 
-* Which methods in your code are called?
-* What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+* *Which methods in your code are called?*
+* *What are the relevant arguments to those methods, and the values of any relevant fields of the class?*
+* *How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.*
 
 **Answers**
 
 * *The handleRequest method*
 * *The class fields are path and lines*
-* *lines becomes modified*
+* *lines becomes modified, this by putting a request to add using /add-messages *
 
 
 ## Part 2
