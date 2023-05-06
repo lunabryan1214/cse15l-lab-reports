@@ -3,22 +3,9 @@
 
 ## Part 1
 
+
 ```
-# public class String Server{
-
-  public static void start(int port, URLHandler handler){
-
-   HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
-   server.createContext("/", new ServerHttpHandler(handler));
-   
-   if(path.equals("/add-message?s=Hello" && /add-message?s=How are you){
-   
-    system.out.println("Hello\n How are you");
-
-  }
-}
-
-class StringHandler implements URLHandler {
+# class StringHandler implements URLHandler {
   List<String> lines;
   String path;
   StringHandler(String path) throws IOException {
@@ -81,6 +68,28 @@ class StringServer {
 }
 
 ```
+
+*This is the first string added*
+![Image](firstaddition.png)
+
+*This is adding the rest of the strings*
+![Image](secondAddition.png)
+
+*The results after adding Strings*
+![Image](Screenshot 2023-05-05 at 8.00.50 PM.png)
+
+**Questions**
+
+* Which methods in your code are called?
+* What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+* How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+**Answers**
+
+* *The handleRequest method*
+* *The class fields are path and lines*
+* *lines becomes modified*
+
 
 ## Part 2
 
