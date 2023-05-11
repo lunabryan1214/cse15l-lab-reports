@@ -12,3 +12,34 @@ Write 1 - 2 sentences about what it's doing and why it is useful
 
 Part 4:
 Next to each option/alternate command, cite your source on where you found it using a url or discription
+
+
+# Lab Report 3
+
+**Command** `find`
+
+**Alternates**
+
+* `-size n[ckMGTP]` *I found this altnarate command through the use of man find in the terminal*
+*` -type t` *I found this altnarate command through the use of man find in the terminal*
+* `-newer file` *I found this altnarate command through the use of man find in the terminal*
+* `-name pattern`*I found this altnarate command through the use of man find in the terminal*
+
+## Examples
+
+**`-size n[ckMGTP]`**
+*
+*
+
+**`-type t`**
+*
+*
+
+**`-newer file`**
+*
+*
+
+**`-name pattern`**
+*
+*
+
