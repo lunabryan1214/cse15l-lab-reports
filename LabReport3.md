@@ -41,18 +41,18 @@ Next to each option/alternate command, cite your source on where you found it us
 ## Examples
 
 **`-size n[ckMGTP]`**
-* w
-* w 
+* ``` # find ./technical -size +1M```
+* ``` # find ./technical -size +1G```
 
 **`-type t`**
-* w
-* w
+* ``` # find ./technical -type d```
+* ``` # find ./techincal -type f```
 
 **`-newer file`**
-* w
-* w
+* ``` # find ./techincal -newer file.txt```
+* ``` # find ./techincal - newer doc.txt```
 
 **`-iname pattern`**
-* w
-* w
+* ``` # find ./technical -iname FiLe.tXt```
+* ``` # find ./techincal -iname dOc.txT```
 
