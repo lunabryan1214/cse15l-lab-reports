@@ -39,7 +39,12 @@
 
 **`-type t`**
 * ``` # find ./technical -type d```
+
+![image](typed.png)
+
 * ``` # find ./techincal -type f```
+
+![image](typef.png)
 
 **`-newer file`**
 * ``` # find ./technical -newer ./technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt```
