@@ -42,7 +42,7 @@
 
 ![image](typed.png)
 
-* ``` # find ./techincal -type f```
+* ``` # find ./technical -type f```
 
 ![image](typef.png)
 
@@ -56,6 +56,10 @@
 ![image](Newermillion.png)
 
 **`-iname pattern`**
-* ``` # find ./technical -iname FiLe.tXt```
-* ``` # find ./techincal -iname dOc.txT```
+* ``` # find ./technical -iname RR166.TXT```
 
+![image](RRtxt.png)
+
+* ``` # find ./technical -iname POOR_LACKING_LEGAL_AID.TXT ```
+
+![image](legaltxt.png)
