@@ -36,8 +36,8 @@
 * ``` # find ./techincal -type f```
 
 **`-newer file`**
-* ``` # find ./techincal -newer file.txt```
-* ``` # find ./techincal - newer doc.txt```
+* ``` # find ./technical -newer ./technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt```
+* ``` # find ./techincal -newer ./technical -newer ./technical/government/Media/Aid_Gets_7_Million.txt ```
 
 **`-iname pattern`**
 * ``` # find ./technical -iname FiLe.tXt```
