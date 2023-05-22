@@ -48,7 +48,12 @@
 
 **`-newer file`**
 * ``` # find ./technical -newer ./technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt```
+
+![image](newerVolume.png)
+
 * ``` # find ./techincal -newer ./technical -newer ./technical/government/Media/Aid_Gets_7_Million.txt ```
+
+![image](Newermillion.png)
 
 **`-iname pattern`**
 * ``` # find ./technical -iname FiLe.tXt```
