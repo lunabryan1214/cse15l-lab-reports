@@ -30,11 +30,15 @@
 **`-size n[ckMGTP]`**
 
 ``` # find ./technical -size +200k```
+
 *this commands searches ./technincal for files that are above 200 kilobtyes. It's useful to find files within a range
+
 ![image](size200k.png)
 
 * ``` # find ./technical -size +1c```
+
 *This command searches ./technical for files above 1 byte. It could be used to see all files.
+
 ![image](size1c.png)
 
 ***
@@ -42,7 +46,9 @@
 **`-type t`**
 
 * ``` # find ./technical -type d```
-*This command shows all directories. It can be useful to see all directories you have.*
+
+*This command shows all directories. It can be useful to see all directories you have.
+
 ![image](typed.png)
 
 
@@ -56,12 +62,15 @@
 **`-newer file`**
 
 * ``` # find ./technical -newer ./technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt```
+
 *Checks for a new files of a specifeid file. It can be useful to check for changes.
+
 ![image](newerVolume.png)
 
 * ``` # find ./techincal -newer ./technical -newer ./technical/government/Media/Aid_Gets_7_Million.txt ```
 
 *Checks for a new files of a specifeid file. It can be useful to check for changes aswell.
+
 ![image](Newermillion.png)
 
 ***
@@ -69,11 +78,15 @@
 **`-iname pattern`**
 
 * ``` # find ./technical -iname RR166.TXT```
+
 *Finds files based on their names, however it's case insensitive. It's useful if you forgot what letters are uppercase/lowercase , but remember the name
+
 ![image](RRtxt.png)
 
 * ``` # find ./technical -iname POOR_LACKING_LEGAL_AID.TXT ```
+
 *Finds files based on their names, however it's case insensitive. It's useful if you forgot what letters are uppercase/lowercase , but remember the name
+
 ![image](legaltxt.png)
 
 ***
