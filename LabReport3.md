@@ -5,7 +5,7 @@
 
 **Alternates**
 
-*The following commands were all found by going to the terminal and typing `man find`*
+*The following commands were all found by going to the terminal and typing* `man find`
 
 * `-size n[ckMGTP]` 
 
