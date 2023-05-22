@@ -32,7 +32,8 @@
 ``` # find ./technical -size +1M```
 ![image](size200k.png)
 
-* ``` # find ./technical -size +1G```
+* ``` # find ./technical -size +1c```
+![image](size1c.png)
 
 **`-type t`**
 * ``` # find ./technical -type d```
