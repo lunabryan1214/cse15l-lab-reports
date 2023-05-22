@@ -31,7 +31,7 @@
 
 ``` # find ./technical -size +200k```
 
-*this commands searches ./technincal for files that are above 200 kilobtyes. It's useful to find files within a range
+*this commands searches ./technincal for files that are above 200 kilobtyes. It's useful to find files within a range*
 
 ![image](size200k.png)
 
@@ -54,7 +54,7 @@
 
 * ``` # find ./technical -type f```
 
-*This command shows all files. It can be useful to check all the files you have**
+*This command shows all files. It can be useful to check all the files you have*
 
 ![image](typef.png)
 
