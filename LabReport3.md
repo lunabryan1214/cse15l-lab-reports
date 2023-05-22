@@ -30,7 +30,7 @@
 **`-size n[ckMGTP]`**
 
 ``` # find ./technical -size +1M```
-![image](size 200k)
+![image](size 200k.png)
 
 * ``` # find ./technical -size +1G```
 
