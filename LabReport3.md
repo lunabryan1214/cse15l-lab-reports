@@ -29,10 +29,12 @@
 
 **`-size n[ckMGTP]`**
 
-``` # find ./technical -size +1M```
+``` # find ./technical -size +200k```
+
 ![image](size200k.png)
 
 * ``` # find ./technical -size +1c```
+
 ![image](size1c.png)
 
 **`-type t`**
