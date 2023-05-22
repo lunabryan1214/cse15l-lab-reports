@@ -37,6 +37,8 @@
 
 ![image](size1c.png)
 
+***
+
 **`-type t`**
 * ``` # find ./technical -type d```
 
@@ -46,7 +48,10 @@
 
 ![image](typef.png)
 
+***
+
 **`-newer file`**
+
 * ``` # find ./technical -newer ./technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt```
 
 ![image](newerVolume.png)
@@ -55,7 +60,10 @@
 
 ![image](Newermillion.png)
 
+***
+
 **`-iname pattern`**
+
 * ``` # find ./technical -iname RR166.TXT```
 
 ![image](RRtxt.png)
@@ -63,3 +71,5 @@
 * ``` # find ./technical -iname POOR_LACKING_LEGAL_AID.TXT ```
 
 ![image](legaltxt.png)
+
+***
