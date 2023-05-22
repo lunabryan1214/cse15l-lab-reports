@@ -28,7 +28,10 @@
 ## Examples
 
 **`-size n[ckMGTP]`**
-* ``` # find ./technical -size +1M```
+
+``` # find ./technical -size +1M```
+![image](size 200k)
+
 * ``` # find ./technical -size +1G```
 
 **`-type t`**
