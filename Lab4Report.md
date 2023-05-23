@@ -5,7 +5,7 @@
 
 ![Image](FailedTest.png)
 
-*changing ```index1``` to ```index2```
+*changing* ```index1``` *to* ```index2```
 
 
 ```<Down>``` *38x*
