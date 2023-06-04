@@ -1,6 +1,14 @@
 # Lab 5
 
+# Part 1
+**Edstem**
+
 ![Image](lab5.png)
+
+***
+
+
+# Part 2
 
 **Instructor Response**
 
@@ -12,7 +20,7 @@ which integers are greator and less than your pivot.
 Look back at the logic of those methods*
 
 
-**FIX
+**Fix**
 
 ![Image](lab5fix.png)
 
@@ -22,6 +30,47 @@ By using > instead of < when attemping to find elements smaller than the pivot a
 greater than the pivot as smaller and vice versa. As a result, the sorting order is reversed,
 leading to incorrect sorting of the elements.*
 
+***
+
+# Part 3
+
+## Files
+
+*The file & directory structure needed*
+
+- partitioner
+  - Partitioner.java
+  - QuickSort.java
+  - PartitionerTest.java
+  - Tester.sh
+
+*Partitioner.java: Contains the implementation of the partitionMiddlePivot method and the swap helper method.
+QuickSort.java: Contains the implementation of the quickSort method.
+PartitionerTest.java: Contains the test cases for the quickSort method using assertArrayEquals.
+Tester.sh: A Bash script that compiles the Java files, checks if the compilation was successful, and runs the PartitionerTest class.*
+
+## Bash Script
+```
+#
+javac Partitioner.java
+javac PartitionerTest.java
+
+
+if [ $? -eq 0 ]; then
+    echo "Compilation successful."
+
+    # Run the program
+    java PartitionerTest
+else
+    echo "Compilation failed. Please check for any errors."
+    exit 1
+fi
+
+# Clean up compiled files
+rm Partitioner.class
+rm PartitionerTest.class
+
+```
 ## Before fix
 
 ```
@@ -106,6 +155,8 @@ public class PartitionerTest {
         }
     }
 ```
+
+
 
 ## After fix
 ```
@@ -192,3 +243,37 @@ public class PartitionerTest {
         }
     }
 ```
+## Commond Lines 
+
+*The command line used is:*
+`Bash Tester.sh`
+
+
+## Discription of what to edit to fix the Bug
+
+```
+#while (arr[low] > pivot) {  
+    low++;
+}
+
+while (arr[high] < pivot) {  
+    high--;
+}
+```
+*The way this piece of code is determining what's lower and greater than the pivot is incorrect.
+To fix this code must swap both of these equality sign to the opposite.*
+
+*The code should end up like the following with fliped sign, so that it's not sorting in reverse order*
+
+```
+#while (arr[low] < pivot) {  
+    low++;
+}
+```
+
+```              
+while (arr[high] > pivot) { 
+    high--;
+}
+```
+
