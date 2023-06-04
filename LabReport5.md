@@ -275,9 +275,7 @@ To fix this code must swap both of these equality sign to the opposite.*
 #while (arr[low] < pivot) {  
     low++;
 }
-```
-
-```              
+            
 while (arr[high] > pivot) { 
     high--;
 }
