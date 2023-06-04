@@ -281,7 +281,7 @@ while (arr[high] > pivot) {
 }
 ```
 
-# Refelection
+# Reflection
 
 *What I learned in the second half of class during lab is what and how to use Vim. I actually was not aware of vim was or even what it can do. However I was able to see what it is and what's it used for. I learned how to enter files using vim. I learned how to save. And most importantly how to exit vim.*
 
