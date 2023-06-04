@@ -24,6 +24,8 @@ Look back at the logic of those methods*
 
 ![Image](lab5fix.png)
 
+**About The Bug**
+
 *The bug ended up being a logical error in the way the arrays were being partitioned.
 By using > instead of < when attemping to find elements smaller than the pivot and
 < instead of > for elements larger than the pivot the code incorrectly identifies the elements 
