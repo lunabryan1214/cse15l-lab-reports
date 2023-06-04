@@ -1,4 +1,4 @@
-# Lab 5
+# Lab 5 Report
 
 # Part 1
 **Edstem**
