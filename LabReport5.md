@@ -38,16 +38,18 @@ leading to incorrect sorting of the elements.*
 
 *The file & directory structure needed*
 
-- partitioner
+- Directory: src
+
+Files 
   - Partitioner.java
   - QuickSort.java
   - PartitionerTest.java
   - Tester.sh
 
-*Partitioner.java: Contains the implementation of the partitionMiddlePivot method and the swap helper method.
-QuickSort.java: Contains the implementation of the quickSort method.
-PartitionerTest.java: Contains the test cases for the quickSort method using assertArrayEquals.
-Tester.sh: A Bash script that compiles the Java files, checks if the compilation was successful, and runs the PartitionerTest class.*
+* Partitioner.java: Contains the implementation of the partitionMiddlePivot method and the swap helper method.
+* QuickSort.java: Contains the implementation of the quickSort method.
+* PartitionerTest.java: Contains the test cases for the quickSort method using assertArrayEquals.
+* Tester.sh: A Bash script that compiles the Java files, checks if the compilation was successful, and runs the PartitionerTest class.
 
 ## Bash Script
 ```
@@ -74,6 +76,8 @@ rm PartitionerTest.class
 ## Before fix
 
 ```
+import java.util.Arrays;
+
 # public class Partitioner {
     
     partitioner
@@ -117,7 +121,7 @@ class QuickSort {
         }
     }
 }
-import java.util.Arrays;
+
 
 public class PartitionerTest {
     public static void main(String[] args) {
